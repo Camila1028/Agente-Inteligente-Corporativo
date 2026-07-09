@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-cohere
+langchain-text-splitters
+langchain-classic
+faiss-cpu
+cohere
+python-dotenv
+pandas
