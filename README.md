@@ -411,8 +411,66 @@ El agente fue diseñado para:
 
 ---
 
+# ☁️ Despliegue del Proyecto
+
+El **Agente Inteligente Corporativo de Recursos Humanos** fue desplegado exitosamente en **Streamlit Community Cloud**, permitiendo acceder al sistema desde cualquier navegador web sin necesidad de instalar dependencias o ejecutar el proyecto localmente.
+
+## 🌐 Aplicación en producción
+
+Puedes acceder al asistente desde el siguiente enlace:
+
+**https://agente-inteligente-corporativo-pyagg6zsfmecqfgasdmdz8.streamlit.app/**
+
+## 📷 Evidencia del despliegue
+
+La siguiente captura muestra la aplicación ejecutándose correctamente en la nube.
+
+![Evidencia del despliegue](images/streamlit-deploy.png)
+
+> **Nota:** La imagen `streamlit-deploy.png` debe ubicarse dentro de la carpeta `images` del repositorio.
+
+---
+
+# 📁 Estructura final del proyecto
+
+```text
+Agente-Inteligente-Corporativo/
+│
+├── images/
+│   └── streamlit-deploy.png
+│
+├── src/
+│   ├── agent.py
+│   ├── chat.py
+│   ├── embeddings.py
+│   ├── loader.py
+│   ├── prompt.py
+│   ├── retriever.py
+│   ├── splitter.py
+│   └── vectorstore.py
+│
+├── documento_base.csv
+├── app.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+# 🔗 Enlaces del proyecto
+
+### 📂 Repositorio en GitHub
+
+**https://github.com/Camila1028/Agente-Inteligente-Corporativo**
+
+### 🚀 Aplicación desplegada
+
+**https://agente-inteligente-corporativo-pyagg6zsfmecqfgasdmdz8.streamlit.app/**
+---
 # 👩‍💻 Autor
 
 **María Camila Suárez Cardona**
 
-Proyecto académico desarrollado como implementación de un **Asistente Inteligente Corporativo basado en la arquitectura Retrieval-Augmented Generation (RAG)** utilizando Python, LangChain, Cohere y FAISS.
+Proyecto desarrollado como implementación de un **Asistente Inteligente Corporativo basado en la arquitectura Retrieval-Augmented Generation (RAG)** utilizando Python, LangChain, Cohere y FAISS.
